@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="calc.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="enclose"><br>
+        <input type="text" id="num" class="screen" placeholder= disabled>
+        <!-- <div class="screen">
+            <p class="screen">0</p>
+        </div> -->
+        <div class="keys"><br>
+            <div class="row1">
+                <input type="button" id="but" value="7">
+                <input type="button" id="but" value="8">
+                <input type="button" id="but" class="row-3" value="9">
+                <input type="button" class="operator" value="/">
+            </div><br>
+            <div class="row2">
+                <input type="button" id="but" value="4">
+                <input type="button" id="but" value="5">
+                <input type="button" id="but" class="row-3" value="6">
+                <input type="button" class="operator" value="x">
+            </div><br>
+            <div class="row3">
+                <input type="button" id="but" value="1">
+                <input type="button" id="but" value="2">
+                <input type="button" id="but" class="row-3" value="3">
+                <input type="button" class="operator" value="-">
+            </div><br>
+            <div class="row4">
+                <input type="button" value="%">
+                <input type="button" id="but" value="0">
+                <input type="button" class="decimal" class="row-3" value=".">
+                <input type="button" class="operator" value="+">
+            </div>
+            <!-- <div class="button"><p class="operator">=</p></div> -->
+             <div class="row5" style="margin-top:10px;">
+                <input type="button" class="clear-screen" onclick="resetCalc()" value="AC">
+                <input type="button" class="operator" id="button" value="=">
+             </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
